@@ -8,10 +8,10 @@ export default function Home() {
     const [mode, setMode] = useState("4"); // โหมดเริ่มต้นเป็น 4 จอ
 
     const streams = [
-        { name: "สำนักพิมพ์จุฬา-01", url: "http://34.135.22.194/hls/cam3/test.m3u8" },
-        { name: "สำนักพิมพ์จุฬา-02", url: "http://34.135.22.194/hls/cam4/test1.m3u8" },
-        { name: "โรงพิมพ์อาสารักษาดินแดน-01", url: "http://34.135.22.194/hls/cam5/test5.m3u8" },
-        { name: "โรงพิมพ์อาสารักษาดินแดน-02", url: "http://34.135.22.194/hls/cam6/test6.m3u8" },
+        { name: "สำนักพิมพ์จุฬา-01", url: "http://34.135.22.194/hls/live3/cam3.m3u8" },
+        { name: "สำนักพิมพ์จุฬา-02", url: "http://34.135.22.194/hls/live4/cam4.m3u8" },
+        { name: "โรงพิมพ์อาสารักษาดินแดน-01", url: "http://34.135.22.194/hls/live5/cam5.m3u8" },
+        { name: "โรงพิมพ์อาสารักษาดินแดน-02", url: "http://34.135.22.194/hls/live6/cam6.m3u8" },
     ];
 
     streams.forEach((stream, index) => {
