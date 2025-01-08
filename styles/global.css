@@ -1,0 +1,33 @@
+/* global.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-container-wrapper {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px;
+    gap: 8px;
+    align-items: stretch;
+}
+
+.video-container {
+    flex: 1 1 calc(50% - 16px);
+    display: flex;
+    flex-direction: column;
+    height: calc((100vh - 48px) / 2 - 1px);
+}
+
+.video-container.two-screens {
+    flex: 1 1 calc(50% - 16px);
+    height: 100%;
+}
