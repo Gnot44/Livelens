@@ -1,5 +1,4 @@
 import React, { useRef, useState, useEffect, memo } from "react";
-import "../styles/vcontainer.css"; // นำเข้า CSS
 import { Box, Typography, IconButton } from "@mui/material";
 import Hls from "hls.js";
 import CloseIcon from "@mui/icons-material/Close";
@@ -88,7 +87,7 @@ const VideoContainer = ({ blockId, streamName: initialStreamName }) => {
 
     return (
         <Box
-            className="video-container"
+            className="video-container-vcon"
             onDrop={handleDrop}
             onDragOver={(e) => e.preventDefault()}
         >

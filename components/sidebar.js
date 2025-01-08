@@ -1,7 +1,7 @@
 import React, { memo } from "react";
 import { Drawer, List, ListItem, ListItemText, IconButton, Box } from "@mui/material";
 import { ChevronLeft, ChevronRight, GridView, Splitscreen, FiberManualRecord } from "@mui/icons-material";
-import "../styles/sidebar.css"; // Import CSS จากโฟลเดอร์ /styles
+
 
 const Sidebar = ({ open, streams, onDragStart, toggleSidebar, setMode }) => {
     return (

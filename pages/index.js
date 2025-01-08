@@ -1,7 +1,6 @@
 import React, { useState, useCallback } from "react";
 import Sidebar from "../components/sidebar";
 import VideoContainer from "../components/VideoContainer";
-import "../styles/global.css"; // นำเข้า CSS
 
 export default function Home() {
     const [sidebarOpen, setSidebarOpen] = useState(true);
